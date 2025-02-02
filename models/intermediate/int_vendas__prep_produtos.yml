@@ -1,0 +1,43 @@
+models:
+  - name: prep_produtos
+    description: Modelo que enriquece produtos com categorias e fornecedores 
+    columns: 
+      - name: PK_PRODUTO
+        description: A PREENHCER.
+        data_tests:
+          - unique
+          - not_null
+          
+      - name: NM_PRODUTO
+        description: A PREENHCER.
+
+      - name: QUANTIDADE_POR_UNIDADE
+        description: A PREENHCER.
+        
+      - name: PRECO_POR_UNIDADE
+        description: A PREENHCER.
+        
+      - name: UNIDADE_EM_ESTOQUE
+        description: A PREENHCER.
+        
+      - name: UNIDADE_POR_PEDIDO
+        description: A PREENHCER.
+        
+      - name: NIVEL_DE_PEDIDO
+        description: A PREENHCER.
+        
+      - name: EH_DISCONTINUADO
+        description: A PREENHCER.
+        
+      - name: NOME_CATEGORIA
+        description: A PREENHCER.
+        
+      - name: NOME_FORNECEDOR
+        description: A PREENHCER.
+        
+      - name: CIDADE_FORNECEDOR
+        description: A PREENHCER.
+        
+      - name: PAIS_FORNECEDOR
+        description: A PREENHCER.
+    
